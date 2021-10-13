@@ -39,7 +39,7 @@ li {
 
 h1,
 h2,
-h3,
+blockquote,
 p {
   margin: 0;
 }
@@ -233,14 +233,14 @@ h2 {
   margin: calc(5em / 15) 0;
 }
 
-h3 {
+.person-info p {
   color: hsl(333, 80%, 67%, 0.7);
   font-weight: 400;
   grid-area: state;
   font-size: inherit;
 }
 
-.testimonial p {
+.testimonial blockquote {
   color: white;
   line-height: 1.8em;
   font-size: calc(13em / 15);
